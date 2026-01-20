@@ -52,3 +52,11 @@ Please see the [API docs here](./server/README.md).
 
 Please send us the link to your repo on GitHub, Gitlab, etc. We will continue to work on it during the pair-programming
 sessions. Please also indicate approximately how long you spent on the submission.
+
+## Time Spent
+
+**~2 hours total**
+
+- **Analyze & Setup (~20 mins)**
+- **Implementation (~1h 20 mins)**
+- **Testing (~20 mins)**

@@ -1,0 +1,26 @@
+.create-ticket-button {
+    margin-bottom: 10px;
+}
+
+.create-ticket-dialog-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.create-ticket-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    z-index: 1001;
+    padding: 20px;
+}

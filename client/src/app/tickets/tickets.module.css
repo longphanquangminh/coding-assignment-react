@@ -1,2 +1,13 @@
-.tickets {
+.tickets-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
 }

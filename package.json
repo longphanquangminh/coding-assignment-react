@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "start": "nx run-many --target=serve --projects=server,client",
-    "test": "nx run-many --target=test --projects=server,client"
+    "test": "nx run-many --target=test --projects=server,client",
+    "test-coverage": "nx run-many --target=test --projects=server,client -- --coverage"
   },
   "dependencies": {
     "@nestjs/common": "9.2.1",
     "@nestjs/core": "9.2.1",
     "@nestjs/platform-express": "9.2.1",
+    "axios": "^1.13.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router": "^6.3.0",
